@@ -15,3 +15,12 @@ npm run dev
 ```bash
 npm run build
 ```
+## 服务端启动
+### install dependencies
+```bash
+npm install
+```
+### run dev
+```bash
+npm run dev
+```
