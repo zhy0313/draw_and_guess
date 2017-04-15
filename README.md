@@ -9,7 +9,7 @@
 ### 找到第43行，修改为本机ip地址
 ```bash
    const webSocket = WebSocketClient.init({
-      path: 'ws://10.19.128.101:9001/ws/',
+      path: 'ws://**10.19.128.101:9001**/ws/',
 ```
 
 ## 客户端启动
