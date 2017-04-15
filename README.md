@@ -2,9 +2,12 @@
 你画我猜——移动端多人游戏
 
 ## 端口配置
+### 打开客户端入口文件main.js
 ```bash
    cd client/src
-   打开main.js,修改第43行的ip地址为本机ip地址：
+```
+### 找到第43行，修改为本机ip地址
+```bash
    const webSocket = WebSocketClient.init({
       path: 'ws://10.19.128.101:9001/ws/',
 ```
